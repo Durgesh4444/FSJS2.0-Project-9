@@ -39,7 +39,7 @@
     display: flex;
     justify-content:space-between;
     padding: 100px 200px;
-    background:linear-gradient(#F9FCFF,#E7F4FF);
+    background:linear-gradient( #F9FCFF, #E7F4FF);
 }
 .main .left .sec{
     display: flex;
@@ -117,7 +117,7 @@
     
 }
 
-.features .qubly{
+.qubly{
     display: flex;
     justify-content: center;
     width: 150px;
@@ -166,4 +166,226 @@
     font-size: 15px;
     font-weight: 500;
     color: gray;
+}
+
+/* teams  */
+.product{
+    display: flex;
+    padding: 0 200px;
+    gap: 200px;
+}
+.product .right{
+    padding-top: 130px;
+}
+
+.product .right .qubly{
+    margin-left: 0;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 40px;
+    font-weight: 600;
+}
+
+.product .right h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.product .right p:nth-child(3){
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+
+.two{
+    display: flex;
+    gap: 100px;
+    flex-direction:row-reverse ;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.two .left img{
+    width: 550px;
+}
+
+.two .right .qubly{
+    width: 250px;
+}
+
+/* profile section  */
+.profile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px 200px;
+    background:linear-gradient(#F9FCFF,#E7F4FF);
+}
+
+.profile h1{
+    font-weight: 500;
+    color: rgb(36, 35, 35);
+}
+
+.profile .img{
+    margin: 30px 0;
+}
+
+.profile hr{
+    margin: 30px 0;
+}
+
+.profile .logo{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+/* sign up section  */
+.sign{
+    display: flex;
+    padding: 150px 250px;
+    gap: 100px;
+}
+
+.sign .left h1{
+    font-size: 33px;
+    margin-bottom: 40px;
+}
+.sign .left .trust{
+    display: flex;
+    text-align: center;
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.sign .left hr{
+    position: relative;
+    top: 10px;
+    height: 1px;
+    width: 150px;
+}
+
+.sign .left .trust p{
+    margin: 0 30px ;
+}
+
+.sign .left .lg{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 75px;
+
+}
+
+.sign .right{
+    background-color: #F9F0FF;
+    padding: 0 20px;
+}
+
+.sign .right .up{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 1px 1px 5px grey;
+
+}
+
+.sign .right .up h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.sign .right .up .length{
+    width: 370px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #722ED1;
+    color: #fff;
+    font-size: 15px;
+}
+
+.sign .right .up .in{
+    background-color: #fff;
+    border: 1px solid gray;
+    padding-left: 25px;
+    color: #000;
+}
+
+.sign .right .up h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.sign .right .up hr{
+    margin: 10px 0;
+}
+
+.sign .right .up p{
+    color: gray;
+    font-size: 14px;
+}
+
+.sign .right .up a{
+    color: #722ED1;
+    text-decoration: none;
+}
+
+
+/* footer section  */
+footer{
+    padding:0 200px 100px;
+    display: flex;
+    gap: 50px;
+}
+footer .first{
+    width: 250px;
+}
+
+footer .first .img-lg{
+    display: flex;
+    gap: 15px;
+}
+footer .first p{
+margin: 30px 0;
+color:rgb(94, 92, 92);
+font-weight: 600;
+
+}
+footer div{
+    font-size: 13px;
+    list-style: none;
+}
+footer div li{
+    margin-bottom: 10px;
+    color: rgb(94, 92, 92);
+    font-weight: 600;
+}
+
+footer div li:nth-child(1){
+    font-size: 16px;
+    font-weight:600 ;
+    margin-bottom: 15px;
+    color: #000;
+}
+footer div .email{
+    height: 35px;
+    width: 200px;
+    padding:10px 20px;
+    border: none;
+    box-shadow: 2px 2px 10px grey;
+    margin-top: 20px;
+    
+}
+footer div .arrow{
+    position: relative;
+    left: -35px;
+    top: 5px;
 }
